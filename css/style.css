@@ -1,0 +1,138 @@
+body .face {
+	position: relative;
+    width: 250px;
+    height: 300px;
+    background: #FFCC99;
+    margin: 0 auto;
+    border-radius: 40%;
+}
+
+.eyes {
+    position: absolute;
+    margin-top: 57%;
+    width: 250px;
+    height: 20px;
+    
+}
+
+.eye:first-child {
+    float: right;
+    content: "\2022";
+    width: 40px;
+    height: 40px;
+    background: white;
+    margin-right: 10%;
+    border-radius: 100%;
+}
+
+.eye:first-child:before {
+    content: "\2022";
+    padding: 10px;
+    background: lightblue;
+    border-radius: 100%
+}
+
+.eye:last-child {
+    content: "\2022";
+    width: 40px;
+    height: 40px;
+    background: white;
+    margin-left: 10%;
+    border-radius: 100%;
+}
+
+.eye:last-child:before {
+    content: "\2022";
+    padding: 10px;
+    background: lightblue;
+    border-radius: 100%
+}
+
+.eye:last-child:after {
+    
+}
+
+.nose {
+    position: absolute;
+    height: 50px;
+    width: 25px;
+    margin-left: 47%;
+    margin-top: 70%;
+    background: #FFDC70;
+    border-radius: 40%;
+}
+
+.nose:before {
+    /*clear: inherit;*/
+    position: absolute;
+    content: "\2022";
+    background: #FFDC70;
+    width: 25px;
+    left: 30%;
+    bottom: 0;
+    text-align: center;
+    border-radius: 40%;
+}
+
+.nose:after{
+    position: absolute;
+    content: "\2022";
+    background: #FFDC70;
+    width: 25px;
+    right: 30%;
+    bottom: 0;
+    text-align: center;
+    border-radius: 40%;
+}
+
+.mouth {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    margin-top: 90%;
+    margin-left: 10%;
+    background: black;
+    border-radius: 40%;
+}
+
+.mouth:before {
+    content: "xxxxxxxxxxxxxxxxxxxxxxxxx";
+    color: #FFCC99;
+    height: 40px;
+    width: 200px;
+    background: #FFCC99;
+}
+
+.mouth:after {
+    position: absolute;
+    content: "hhhhh";
+    color: red;
+    bottom: 0;
+    left: 83px;
+    background: red;
+    border-radius: 20%;
+}
+
+.hair {
+    position: absolute;
+    width: 250px;
+    height: 100px;
+    border-radius: 40%;
+    background: black;
+}
+
+.moustache {
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    margin-left: 40%;
+    margin-top: 90%;
+    background: brown;
+    overflow: hidden;
+}
+
+.text p{
+    text-align: center;
+    font-family: Helvetica;
+}
+
